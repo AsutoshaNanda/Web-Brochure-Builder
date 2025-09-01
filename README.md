@@ -17,7 +17,7 @@ This repo was built around the OpenAI API (via the OpenAI Python client). If you
 
 ## Repo contents
 - LICENSE — MIT License.
-- Project Web-Brochure-Builder.ipynb — the main Jupyter notebook that contains scraping, link-selection, and brochure-generation logic.
+- Project 03 Web-Brochure-Builder.ipynb — the main Jupyter notebook that contains scraping, link-selection, and brochure-generation logic.
 
 ---
 
@@ -127,6 +127,26 @@ If you want to use a local provider and keep the project open-source without dep
    - Local Ollama usually does not require an API key by default; check your deployment/configuration.
 
 Note: APIs and endpoints vary across Ollama versions — consult Ollama docs for exact usage.
+
+---
+
+## Language translation / Japanese brochure (how to use)
+
+This repo includes a translation/rewriting phase that converts the English brochure to Japanese while preserving structure and the humorous tone.
+
+How it works:
+- After the brochure is generated, the notebook builds a specialized system prompt instructing the model to act as a professional copywriter/translator.
+- It then sends the original brochure content to the model with a user prompt requesting a natural, witty Japanese version in Markdown.
+- The model returns the translated brochure; the notebook displays it as Markdown.
+
+How to use in the notebook:
+- Run the cells in Section 4 (or the translation module cell).
+- If the repo includes a separate translation file/module, run or import it with the required environment variables and the generated brochure text as input.
+- The final translated brochure will appear in the notebook output area.
+
+Notes:
+- The translation stage preserves headings, lists and formatting. It aims for a localized adaptation (not a literal word-for-word translation) so the brochure reads naturally for Japanese readers.
+- You can extend the same approach to other languages by modifying the translation system prompt (e.g., for Spanish, French, etc.).
 
 ---
 
