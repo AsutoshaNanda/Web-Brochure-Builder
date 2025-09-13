@@ -1,13 +1,13 @@
 
-# 📚 Web Brochure Builder – A Journey From URL to Storytelling Masterpiece
+# Multilingual Web Brochure Generator
 
-## 🌟 Introduction: The Tale Begins
+## Introduction: The Tale Begins
 
 Imagine you’ve just discovered a promising startup, an inspiring nonprofit, or a vibrant community platform. You want to share its essence with investors, potential partners, or curious customers—**but you don’t have the time to sift through endless pages, extract key messages, and craft a compelling narrative**.  
 
 Enter **Web Brochure Builder**, a Python notebook that transforms a website’s raw content into a polished, multilingual brochure with a dash of humor and personality. It’s more than a script; it’s a digital storyteller that **listens, curates, and translates**—all powered by OpenAI’s GPT‑4o‑mini.
 
-## 📖 The Story So Far
+## The Story So Far
 
 The repository started as a personal experiment: *“Can I automate the creation of a marketing brochure straight from a website?”* The answer was a resounding **YES**, but only after a series of adventures:
 
@@ -20,7 +20,7 @@ The repository started as a personal experiment: *“Can I automate the creation
 
 All of this lives inside a single, interactive Jupyter notebook: `Project Multilingual Web Brochure Generator.ipynb`.
 
-## 🚀 Core Features (The Hero’s Toolbox)
+## Core Features (The Hero’s Toolbox)
 
 | Feature | What It Does | Why It Matters |
 |---------|--------------|----------------|
@@ -32,7 +32,7 @@ All of this lives inside a single, interactive Jupyter notebook: `Project Multil
 | **Multilingual Humor** | Uses `pycountry` to validate target language codes, then translates with witty flair. | Turns a plain translation into a memorable, culturally‑aware piece. |
 | **OpenAI‑First Design** | All heavy‑lifting done by GPT‑4o‑mini, with optional response format enforcement (JSON, markdown). | Leverages state‑of‑the‑art LLM capabilities without reinventing the wheel. |
 
-## 🛠️ Technical Architecture (A Map of the Realm)
+## Technical Architecture (A Map of the Realm)
 
 ```
 ┌─────────────────────┐
@@ -75,7 +75,7 @@ All of this lives inside a single, interactive Jupyter notebook: `Project Multil
 └─────────────────────┘   └─────────────────────┘
 ```
 
-## 📦 Installation & Quick Start (Your First Quest)
+## Installation & Quick Start (Your First Quest)
 
 1. **Clone the Repo**  
    ```bash
@@ -113,7 +113,7 @@ All of this lives inside a single, interactive Jupyter notebook: `Project Multil
    - The notebook will fetch links, decide which are relevant, scrape them, and finally generate a markdown brochure.  
    - You’ll see a nicely formatted output, plus a **streaming version** if you run the streaming cell.
 
-## 🧩 Example Run (A Mini‑Story)
+## Example Run (A Mini‑Story)
 
 ```
 Enter the Website: https://huggingface.co/
@@ -125,7 +125,7 @@ Valid Language
 
 Result: A sleek English brochure followed by a **Japanese version full of playful idioms**—ready to copy into a PDF or web page.
 
-## 🤝 Contributing (Join the Narrative)
+## Contributing (Join the Narrative)
 
 We welcome fellow storytellers, data wranglers, and AI enthusiasts! Here’s how you can add a chapter:
 
@@ -138,11 +138,11 @@ We welcome fellow storytellers, data wranglers, and AI enthusiasts! Here’s how
 4. Add or update tests (we use `pytest` for core functions).  
 5. Submit a Pull Request with a clear description of the narrative change.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License – see the `LICENSE` file for details.
 
-## 🌐 Where to Find More
+## Where to Find More
 
 - **Original Notebook** – `Project Multilingual Web Brochure Generator.ipynb`  
 - **Issue Tracker** – Report bugs or suggest features in the GitHub Issues tab.  
